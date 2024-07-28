@@ -4,6 +4,10 @@
   display: flex;
 }
 
+.text-primary {
+  color: #FF900E;
+}
+
 .text-dark-02 {
     color: #424242;
 }
@@ -11,6 +15,7 @@
 .text-dark-03 {
   color: #727272;
 }
+
 
 .bg-light {
   background-color: rgba(255, 144, 14, 0.1);
@@ -31,6 +36,12 @@ main {
   max-width: 1440px;
   margin: 0 auto;
 }
+
+main > section {
+  margin-top: 130px;
+}
+
+
 
 /* Header styles */
 /* navbar related styles */
@@ -81,8 +92,10 @@ main {
 
 /* responsive media query */
 @media screen and (max-width: 576px) {
-  .navbar, .nav-link {
+  .navbar, 
+  .nav-link {
     flex-direction: column;
   }
   
+ 
 }

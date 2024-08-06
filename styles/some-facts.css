@@ -12,6 +12,7 @@
     text-align: center;
     align-items: center ;
     justify-content: center;
+    /* margin-top: 10px; */
 }
 
 .fact-number {
@@ -28,4 +29,15 @@
 
 .fact-description {
     max-width: 540px;
+}
+
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+    .facts-container {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        gap: 24px;
+    }
+
 }
